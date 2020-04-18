@@ -1,0 +1,44 @@
+img {
+  position: relative;
+  z-index: 1;
+  top: 25px;
+  margin: center;
+  height: 80%;
+  width: 43%
+
+}
+
+body {
+  background-image: url('/Tugas_7_css/Stupa_Borobudur.jpg');
+  background-size: cover;
+}
+
+.justify {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 570px;
+  background-image: url('/Tugas_7_css/avocado.jpg');
+  background-size: auto;
+  border: solid;
+  border-color: red;
+  color: blue;
+}
+
+.justify2 {
+  position: absolute;
+  width: 675px;
+  height: 380px;
+  bottom: 0px;
+  left: 570px;
+  background-image: url('/Tugas_7_css/avocado.jpg');
+  background-size: 250px 190px;
+  background-repeat: repeat-x;
+  background-position: top 20px;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  border-left-width: medium;
+  border-color: red;
+  border
+}
